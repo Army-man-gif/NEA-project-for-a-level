@@ -1,4 +1,4 @@
-
+import subprocess
 def install_modules(module_list):
     for module in module_list:
         try:
@@ -6,9 +6,7 @@ def install_modules(module_list):
             print(f"Successfully installed {module}")
         except subprocess.CalledProcessError:
             print(f"Error installing {module}")
-
-
-
+            
 modules_to_install = [
         'sqlite4',
         '1OS',
@@ -25,7 +23,10 @@ modules_to_install = [
         'gspread',
         'oauth2client',
         'google_api',
+        'google-api-python-client',
         'tkcalendar',
+        'matplotlib',
+        'mplcursors',
         'scikit-image',
         'imageio',
         'numpy',
