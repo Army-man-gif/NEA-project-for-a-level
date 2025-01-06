@@ -1,0 +1,20 @@
+Importance:
+Highly:
+Eliminate the need of internet connection in the calorie information retrieval
+Create the probability logic for when enjoyability is entered
+Create weight brackets based on reps
+Low:
+Create seperate table in database to account for varying reps in sets and drop,super and regular set
+
+
+
+
+
+
+Completed:
+Fix apostrophe error
+Use matplotlib to fix pie chart in calorie section
+Use matplotlib again for graphs in GUI - bar chart or pie
+History of workouts table in database
+GUI the login
+Make sure when done button pressed exercise acc shown
